@@ -5,9 +5,9 @@ let router = express.Router()
 
 
 // GET     /api/feed/:userId
-router.get('/feed/:userId', (req, res, next) => {
-    console.log('this is signup!', new Date());
-    res.send('post v2');
+router.get('/post/:userId', (req, res, next) => {
+    // console.log('this is signup!', new Date());
+    res.send('post created v2');
 })
 
 
