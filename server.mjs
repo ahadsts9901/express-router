@@ -14,9 +14,9 @@ app.use("/api/v1", apiv1Router)
 app.use("/api/v2", apiv2Router)
 
 //     /static/vscode_windows.exe
-app.use("/static", express.static(path.join(__dirname, 'static')))
+// app.use("/static", express.static(path.join(__dirname, 'static')))
 
-app.use(express.static(path.join(__dirname, 'public')))
+// app.use(express.static(path.join(__dirname, 'public')))
 
 const PORT = process.env.PORT || 3000
 

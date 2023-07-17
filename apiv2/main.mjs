@@ -12,16 +12,16 @@ import postRouter from './routes/post.mjs'
 router.use(authRouter)
 
 
-router.use((req, res, next) => {
-    if (token === "valid") {
-        next();
-    } else {
-        res.send({ message: "invalid token" })
-    }
-})
+// router.use((req, res, next) => {
+//     if (token === "valid") {
+//         next();
+//     } else {
+//         res.send({ message: "invalid token" })
+//     }
+// })
 
-router.use("/api/v2", commentRouter)
-router.use("/api/v2", postRouter)
-router.use("/api/v2", feedRouter)
+router.use( commentRouter)
+router.use( postRouter)
+router.use( feedRouter)
 
 export default router

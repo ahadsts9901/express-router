@@ -9,7 +9,7 @@ import postRouter from './routes/post.mjs'
 
 
 // /api/v1/login
-router.use("/api/v1", authRouter)
+router.use(authRouter)
 
 
 // router.use((req, res, next) => {
@@ -20,8 +20,8 @@ router.use("/api/v1", authRouter)
 //     }
 // })
 
-router.use("/api/v1", commentRouter)
-router.use("/api/v1", postRouter)
-router.use("/api/v1", feedRouter)
+router.use( commentRouter)
+router.use( postRouter)
+router.use( feedRouter)
 
 export default router
