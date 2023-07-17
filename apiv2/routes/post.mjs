@@ -51,7 +51,7 @@ router.get('/post/:userId/:postId', (req, res, next) => {
             margin: 0em;
             max-width: 320px;
             border: 2px solid #212121;
-            height: 550px;
+            height: 650px;
         }
         
         p,
@@ -90,12 +90,12 @@ router.get('/post/:userId/:postId', (req, res, next) => {
         }
 
         table {
-            border: 1px solid #fff!important;
+            border: 1px solid #212121!important;
         }
         
         td {
-            border-bottom: 1px solid #fff!important;
-            border-right: 1px solid #fff!important;
+            border-bottom: 1px solid #212121!important;
+            border-right: 1px solid #212121!important;
             font-size: 0.65em!important;
             padding: 0.4em;
             text-align: left;
@@ -104,7 +104,7 @@ router.get('/post/:userId/:postId', (req, res, next) => {
         
         @media only screen and (max-width: 350px) {
             body {
-                height: 600px;
+                height: 750px;
             }
         }
     </style>
@@ -120,51 +120,51 @@ router.get('/post/:userId/:postId', (req, res, next) => {
         <tr>
             <td>1</td>
             <td>Login V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/login"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/login"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Login V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/login"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/login"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
         <tr>
             <td>2</td>
             <td>Signup V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/signup"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/signup"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Signup V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/signup"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/signup"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
         <tr>
             <td>3</td>
             <td>Feed V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/feed/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/feed/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Feed V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/feed/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/feed/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
         <tr>
             <td>4</td>
             <td>Post V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/post/:userId/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/post/:userId/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Post V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/post/:userId/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/post/:userId/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
         <tr>
             <td>5</td>
             <td>Posts V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/posts/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/posts/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Posts V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/posts/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/posts/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
         <tr>
             <td>6</td>
             <td>Comment V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comment/:postId/:commentId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comment/:postId/:commentId"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Comment V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comment/:postId/:commentId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comment/:postId/:commentId"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
         <tr>
             <td>7</td>
             <td>Comments V1</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comments/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comments/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
             <td>Comments V2</td>
-            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comments/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+            <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comments/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
         </tr>
     </table>
     <script>
@@ -227,7 +227,7 @@ router.get('/posts/:userId/', (req, res, next) => {
             margin: 0em;
             max-width: 320px;
             border: 2px solid #212121;
-            height: 550px;
+            height: 650px;
         }
         
         p,
@@ -266,12 +266,12 @@ router.get('/posts/:userId/', (req, res, next) => {
         }
 
         table {
-            border: 1px solid #fff!important;
+            border: 1px solid #212121!important;
         }
         
         td {
-            border-bottom: 1px solid #fff!important;
-            border-right: 1px solid #fff!important;
+            border-bottom: 1px solid #212121!important;
+            border-right: 1px solid #212121!important;
             font-size: 0.65em!important;
             padding: 0.4em;
             text-align: left;
@@ -280,7 +280,7 @@ router.get('/posts/:userId/', (req, res, next) => {
         
         @media only screen and (max-width: 350px) {
             body {
-                height: 600px;
+                height: 750px;
             }
         }
     </style>
@@ -296,51 +296,51 @@ router.get('/posts/:userId/', (req, res, next) => {
     <tr>
         <td>1</td>
         <td>Login V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/login"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/login"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Login V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/login"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/login"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
     <tr>
         <td>2</td>
         <td>Signup V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/signup"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/signup"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Signup V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/signup"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/signup"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
     <tr>
         <td>3</td>
         <td>Feed V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/feed/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/feed/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Feed V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/feed/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/feed/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
     <tr>
         <td>4</td>
         <td>Post V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/post/:userId/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/post/:userId/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Post V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/post/:userId/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/post/:userId/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
     <tr>
         <td>5</td>
         <td>Posts V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/posts/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/posts/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Posts V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/posts/:userId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/posts/:userId"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
     <tr>
         <td>6</td>
         <td>Comment V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comment/:postId/:commentId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comment/:postId/:commentId"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Comment V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comment/:postId/:commentId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comment/:postId/:commentId"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
     <tr>
         <td>7</td>
         <td>Comments V1</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comments/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v1/comments/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
         <td>Comments V2</td>
-        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comments/:postId"><i className="bi bi-arrow-up-right-square" /></a></td>
+        <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comments/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
 </table>
     <script>
