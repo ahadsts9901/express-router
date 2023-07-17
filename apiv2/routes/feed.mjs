@@ -51,7 +51,7 @@ router.get('/feed/:userId', (req, res, next) => {
             margin: 0em;
             max-width: 320px;
             border: 2px solid #212121;
-            height: 650px;
+            height: 750px;
         }
         
         p,
@@ -104,7 +104,7 @@ router.get('/feed/:userId', (req, res, next) => {
         
         @media only screen and (max-width: 350px) {
             body {
-                height: 750px;
+                height: 800px;
             }
         }
     </style>
@@ -167,6 +167,7 @@ router.get('/feed/:userId', (req, res, next) => {
         <td><a href="https://cautious-pear-fawn.cyclic.app/api/v2/comments/:postId"><i class="bi bi-arrow-up-right-square" /></a></td>
     </tr>
 </table>
+<a class="center" href="https://cautious-pear-fawn.cyclic.app">Back To Home</a>
     <script>
         setInterval(() => {
             let currentTime = moment().format("dddd MMMM Do YYYY, h:mm:ss a");
